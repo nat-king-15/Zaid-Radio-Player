@@ -1,0 +1,26 @@
+{
+    "name": "𝐙𝐀𝐈𝐃 𝐑𝐀𝐃𝐈𝐎 𝐏𝐋𝐀𝐘𝐄𝐑",
+    "description": "ᴢᴀɪᴅ ❤️❣️ᴏꜱᴍ ʀᴀᴅɪᴏ ᴘʟᴀʏᴇʀ ᴀɴᴅ ꜱᴡɪᴛᴄʜᴀʙʟᴇ ꜱᴛᴀᴛɪᴏɴꜱ ᴏʀ ɪᴛ ᴄᴀɴ ꜱᴜʀʙ 500+ ᴄʜᴀᴛꜱ😏",
+    "logo": "https://telegra.ph/file/193be05eefc820963cba3.jpg",
+    "repository": "https://github.com/Itsunknown-12/Zaid-Radio-Player",
+    "keywords": ["Zaid", "Radio", "pytgcalls", "pyrogram", "telegram bot"],
+    "env": {
+        "SESSION_NAME": {
+            "description": "Session string, read the README to learn how to export it with Pyrogram"
+        },
+        "APP_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps"
+        }
+    },
+     "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+     }
+    ]
+}
